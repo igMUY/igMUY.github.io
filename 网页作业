@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">  
+ <html xmlns="http://www.w3.org/1999/xhtml" style="overflow: auto; overflow-x:hidden;">  
+ <head>  
+ <title>北京旅游网</title>  
+ <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />  
+ <link rel="stylesheet" type="text/css" href="css/screen.css" />  
+ <script src="js/jquery.min.js"></script>  
+ <script src="js/jquery.flexslider-min.js"></script>  
+ <script type="text/javascript">  
+ $(window).load(function() {  
+ $('.flexslider').flexslider();  
+ });  
+ </script>  
+ <link rel="stylesheet" href="css/lrtk.css" type="text/css" media="screen" />  
+ </head>  
+ <body>  
+ <div class="wrapper">  
+ <div class="top">  
+ <div class="top_link">设为首页 | 加入收藏</div>  
+ </div>  
+ <!--end of top-->  
+ <div class="nav">  
+ <ul id="nav" style="position:absolute;z-index:999;">  
+ <li>网站首页</li>  
+ <li>北京概况</li>  
+ <li>北京美食</li>  
+ <li>自然风光  
+ <ul>  
+ <li>北京野生动物园</li>  
+ <li>北京海洋馆</li>  
+ <li>颐和园</li>  
+ </ul>  
+ </li>  
+ <li>人文特色  
+ <ul>  
+ <li>国家博物馆</li>  
+ <li>北京大学</li>  
+ <li>清华大学</li>  
+ </ul>  
+ </li>  
+ <li>历史建筑  
+ <ul>  
+ <li>故宫</li>  
+ <li>天坛</li>  
+ <li>圆明园</li>  
+ <li>天安门广场</li>  
+ <li>南锣鼓巷</li>  
+ </ul>  
+ </li>  
+ <li>商业时尚  
+ <ul>  
+ <li>三里屯</li>  
+ <li>西单</li>  
+ <li>王府井大街</li>  
+ </ul>  
+ </li>  
+ </ul>  
+ </div>  
+ <!--end of nav-->  
+ <div id="banner">  
+ <div class="flexslider">  
+ <ul class="slide
